@@ -34,19 +34,33 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.cyan,
       ),
-      body: Row(
-          children: [
-            Text('This is Row',style: TextStyle(
-                fontSize: 30,
-                color: Colors.blue
-            ),),
-            Text('This is Row',style: TextStyle(
-                fontSize: 30,
-                color: Colors.blue
-            ),),
-
-          ],
-
+      body: SingleChildScrollView(
+        scrollDirection: Axis.horizontal,
+        child: Row(
+            children: [
+              Text('This is Row',style: TextStyle(
+                  fontSize: 30,
+                  color: Colors.blue
+              ),),
+              Text('This is Row',style: TextStyle(
+                  fontSize: 30,
+                  color: Colors.blue
+              ),),
+              Text('This is Row',style: TextStyle(
+                  fontSize: 30,
+                  color: Colors.blue
+              ),),
+              Text('This is Row',style: TextStyle(
+                  fontSize: 30,
+                  color: Colors.blue
+              ),),Text('This is Row',style: TextStyle(
+                  fontSize: 30,
+                  color: Colors.blue
+              ),),
+        
+            ],
+        
+        ),
       ),
 
       // body: SingleChildScrollView(
