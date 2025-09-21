@@ -34,186 +34,192 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.cyan,
       ),
-      body: SingleChildScrollView(
-        scrollDirection: Axis.horizontal,
-        child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceBetween,
-          crossAxisAlignment: CrossAxisAlignment.end,
-            children: [
-              Text('This is Row',style: TextStyle(
-                  fontSize: 30,
-                  color: Colors.blue
-              ),),
-              SizedBox(
-                width: 10,
-              ),
-              Text('This is Row',style: TextStyle(
-                  fontSize: 30,
-                  color: Colors.blue
-              ),),
-              SizedBox(
-                width: 10,
-              ),
-              Text('This is Row',style: TextStyle(
-                  fontSize: 30,
-                  color: Colors.blue
-              ),),
-              SizedBox(
-                width: 10,
-              ),
-              Text('This is Row',style: TextStyle(
-                  fontSize: 30,
-                  color: Colors.blue
-              ),),
-              SizedBox(
-                width: 10,
-              ),
-              Text('This is Row',style: TextStyle(
-                  fontSize: 30,
-                  color: Colors.blue
-              ),),
-        
-            ],
-        
-        ),
-      ),
-
       // body: SingleChildScrollView(
-      //   child: Column(
-      //     mainAxisAlignment: MainAxisAlignment.center,
+      //   scrollDirection: Axis.horizontal,
+      //   child: Row(
+      //     mainAxisAlignment: MainAxisAlignment.spaceBetween,
+      //     crossAxisAlignment: CrossAxisAlignment.end,
       //       children: [
-      //     Text('This is Column',style: TextStyle(
-      //       fontSize: 30,
-      //       color: Colors.blue
-      //     ),),
-      //     Text('This is Column',style: TextStyle(
-      //         fontSize: 30,
-      //         color: Colors.blue
-      //     ),),
-      //     Text('This is Column',style: TextStyle(
-      //         fontSize: 30,
-      //         color: Colors.blue
-      //     ),),
-      //     Text('This is Column',style: TextStyle(
-      //         fontSize: 30,
-      //         color: Colors.blue
-      //     ),),
-      //     Text('This is Column',style: TextStyle(
-      //         fontSize: 30,
-      //         color: Colors.blue
-      //     ),),
-      //     Text('This is Column',style: TextStyle(
-      //         fontSize: 30,
-      //         color: Colors.blue
-      //     ),),
-      //     Text('This is Column',style: TextStyle(
-      //         fontSize: 30,
-      //         color: Colors.blue
-      //     ),),
-      //     Text('This is Column',style: TextStyle(
-      //         fontSize: 30,
-      //         color: Colors.blue
-      //     ),),
-      //     Text('This is Column',style: TextStyle(
-      //         fontSize: 30,
-      //         color: Colors.blue
-      //     ),),
-      //     Text('This is Column',style: TextStyle(
-      //         fontSize: 30,
-      //         color: Colors.blue
-      //     ),),
-      //     Text('This is Column',style: TextStyle(
-      //         fontSize: 30,
-      //         color: Colors.blue
-      //     ),),
-      //     Text('This is Column',style: TextStyle(
-      //         fontSize: 30,
-      //         color: Colors.blue
-      //     ),),
-      //     Text('This is Column',style: TextStyle(
-      //         fontSize: 30,
-      //         color: Colors.blue
-      //     ),),
-      //     Text('This is Column',style: TextStyle(
-      //         fontSize: 30,
-      //         color: Colors.blue
-      //     ),),
-      //     Text('This is Column',style: TextStyle(
-      //         fontSize: 30,
-      //         color: Colors.blue
-      //     ),),
-      //     Text('This is Column',style: TextStyle(
-      //         fontSize: 30,
-      //         color: Colors.blue
-      //     ),),
-      //     Text('This is Column',style: TextStyle(
-      //         fontSize: 30,
-      //         color: Colors.blue
-      //     ),),
-      //     Text('This is Column',style: TextStyle(
-      //         fontSize: 30,
-      //         color: Colors.blue
-      //     ),),
-      //     Text('This is Column',style: TextStyle(
-      //         fontSize: 30,
-      //         color: Colors.blue
-      //     ),),
-      //     Text('This is Column',style: TextStyle(
-      //         fontSize: 30,
-      //         color: Colors.blue
-      //     ),),
-      //     Text('This is Column',style: TextStyle(
-      //         fontSize: 30,
-      //         color: Colors.blue
-      //     ),),
-      //     Text('This is Column',style: TextStyle(
-      //         fontSize: 30,
-      //         color: Colors.blue
-      //     ),),
-      //     Text('This is Column',style: TextStyle(
-      //         fontSize: 30,
-      //         color: Colors.blue
-      //     ),),
-      //     Text('This is Column',style: TextStyle(
-      //         fontSize: 30,
-      //         color: Colors.blue
-      //     ),),
-      //     Text('This is Column',style: TextStyle(
-      //         fontSize: 30,
-      //         color: Colors.blue
-      //     ),),
-      //     Text('This is Column',style: TextStyle(
-      //         fontSize: 30,
-      //         color: Colors.blue
-      //     ),),
-      //     Text('This is Column',style: TextStyle(
-      //         fontSize: 30,
-      //         color: Colors.blue
-      //     ),),
-      //     Text('This is Column',style: TextStyle(
-      //         fontSize: 30,
-      //         color: Colors.blue
-      //     ),),
-      //     Text('This is Column',style: TextStyle(
-      //         fontSize: 30,
-      //         color: Colors.blue
-      //     ),),
-      //     Text('This is Column',style: TextStyle(
-      //         fontSize: 30,
-      //         color: Colors.blue
-      //     ),),
-      //     Text('This is Column',style: TextStyle(
-      //         fontSize: 30,
-      //         color: Colors.blue
-      //     ),),
-      //     Text('This is Column',style: TextStyle(
-      //         fontSize: 30,
-      //         color: Colors.blue
-      //     ),),
+      //         Text('This is Row',style: TextStyle(
+      //             fontSize: 30,
+      //             color: Colors.blue
+      //         ),),
+      //         SizedBox(
+      //           width: 10,
+      //         ),
+      //         Text('This is Row',style: TextStyle(
+      //             fontSize: 30,
+      //             color: Colors.blue
+      //         ),),
+      //         SizedBox(
+      //           width: 10,
+      //         ),
+      //         Text('This is Row',style: TextStyle(
+      //             fontSize: 30,
+      //             color: Colors.blue
+      //         ),),
+      //         SizedBox(
+      //           width: 10,
+      //         ),
+      //         Text('This is Row',style: TextStyle(
+      //             fontSize: 30,
+      //             color: Colors.blue
+      //         ),),
+      //         SizedBox(
+      //           width: 10,
+      //         ),
+      //         Text('This is Row',style: TextStyle(
+      //             fontSize: 30,
+      //             color: Colors.blue
+      //         ),),
       //
-      //   ],
+      //       ],
+      //
+      //   ),
       // ),
-      // ),
+
+      body: SingleChildScrollView(
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              
+              Icon(Icons.add,size: 50,color: Colors.red,),
+          IconButton(onPressed: () {
+            print('Item Deleted');
+          }, icon: Icon(Icons.delete)),
+              
+          Text('This is Column',style: TextStyle(
+            fontSize: 30,
+            color: Colors.blue
+          ),),
+          Text('This is Column',style: TextStyle(
+              fontSize: 30,
+              color: Colors.blue
+          ),),
+          Text('This is Column',style: TextStyle(
+              fontSize: 30,
+              color: Colors.blue
+          ),),
+          Text('This is Column',style: TextStyle(
+              fontSize: 30,
+              color: Colors.blue
+          ),),
+          Text('This is Column',style: TextStyle(
+              fontSize: 30,
+              color: Colors.blue
+          ),),
+          Text('This is Column',style: TextStyle(
+              fontSize: 30,
+              color: Colors.blue
+          ),),
+          Text('This is Column',style: TextStyle(
+              fontSize: 30,
+              color: Colors.blue
+          ),),
+          Text('This is Column',style: TextStyle(
+              fontSize: 30,
+              color: Colors.blue
+          ),),
+          Text('This is Column',style: TextStyle(
+              fontSize: 30,
+              color: Colors.blue
+          ),),
+          Text('This is Column',style: TextStyle(
+              fontSize: 30,
+              color: Colors.blue
+          ),),
+          Text('This is Column',style: TextStyle(
+              fontSize: 30,
+              color: Colors.blue
+          ),),
+          Text('This is Column',style: TextStyle(
+              fontSize: 30,
+              color: Colors.blue
+          ),),
+          Text('This is Column',style: TextStyle(
+              fontSize: 30,
+              color: Colors.blue
+          ),),
+          Text('This is Column',style: TextStyle(
+              fontSize: 30,
+              color: Colors.blue
+          ),),
+          Text('This is Column',style: TextStyle(
+              fontSize: 30,
+              color: Colors.blue
+          ),),
+          Text('This is Column',style: TextStyle(
+              fontSize: 30,
+              color: Colors.blue
+          ),),
+          Text('This is Column',style: TextStyle(
+              fontSize: 30,
+              color: Colors.blue
+          ),),
+          Text('This is Column',style: TextStyle(
+              fontSize: 30,
+              color: Colors.blue
+          ),),
+          Text('This is Column',style: TextStyle(
+              fontSize: 30,
+              color: Colors.blue
+          ),),
+          Text('This is Column',style: TextStyle(
+              fontSize: 30,
+              color: Colors.blue
+          ),),
+          Text('This is Column',style: TextStyle(
+              fontSize: 30,
+              color: Colors.blue
+          ),),
+          Text('This is Column',style: TextStyle(
+              fontSize: 30,
+              color: Colors.blue
+          ),),
+          Text('This is Column',style: TextStyle(
+              fontSize: 30,
+              color: Colors.blue
+          ),),
+          Text('This is Column',style: TextStyle(
+              fontSize: 30,
+              color: Colors.blue
+          ),),
+          Text('This is Column',style: TextStyle(
+              fontSize: 30,
+              color: Colors.blue
+          ),),
+          Text('This is Column',style: TextStyle(
+              fontSize: 30,
+              color: Colors.blue
+          ),),
+          Text('This is Column',style: TextStyle(
+              fontSize: 30,
+              color: Colors.blue
+          ),),
+          Text('This is Column',style: TextStyle(
+              fontSize: 30,
+              color: Colors.blue
+          ),),
+          Text('This is Column',style: TextStyle(
+              fontSize: 30,
+              color: Colors.blue
+          ),),
+          Text('This is Column',style: TextStyle(
+              fontSize: 30,
+              color: Colors.blue
+          ),),
+          Text('This is Column',style: TextStyle(
+              fontSize: 30,
+              color: Colors.blue
+          ),),
+          Text('This is Column',style: TextStyle(
+              fontSize: 30,
+              color: Colors.blue
+          ),),
+
+        ],
+      ),
+      ),
     );
   }
 }
