@@ -112,7 +112,7 @@ class Home extends StatelessWidget {
 
               Text(
                 'This is Column',
-                style: TextStyle(fontSize: 30, color: Colors.blue),
+                style: TextStyle(fontSize: 30, color: Colors.blue,backgroundColor: Colors.lightGreen,height: 5,),
               ),
               Text(
                 'This is Column',
