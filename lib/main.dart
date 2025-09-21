@@ -82,11 +82,15 @@ class Home extends StatelessWidget {
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
             children: [
-              
+
               Icon(Icons.add,size: 50,color: Colors.red,),
           IconButton(onPressed: () {
             print('Item Deleted');
           }, icon: Icon(Icons.delete)),
+
+          TextButton(onPressed: (){
+            print('Click me from Text Button');
+          }, child: Text('Click me',style: TextStyle(fontSize: 30,color: Colors.blue,fontWeight: FontWeight.bold),)),
               
           Text('This is Column',style: TextStyle(
             fontSize: 30,
