@@ -34,142 +34,157 @@ class Home extends StatelessWidget {
         centerTitle: true,
         backgroundColor: Colors.cyan,
       ),
-      body: SingleChildScrollView(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-            children: [
-          Text('This is Column',style: TextStyle(
-            fontSize: 30,
-            color: Colors.blue
-          ),),
-          Text('This is Column',style: TextStyle(
-              fontSize: 30,
-              color: Colors.blue
-          ),),
-          Text('This is Column',style: TextStyle(
-              fontSize: 30,
-              color: Colors.blue
-          ),),
-          Text('This is Column',style: TextStyle(
-              fontSize: 30,
-              color: Colors.blue
-          ),),
-          Text('This is Column',style: TextStyle(
-              fontSize: 30,
-              color: Colors.blue
-          ),),
-          Text('This is Column',style: TextStyle(
-              fontSize: 30,
-              color: Colors.blue
-          ),),
-          Text('This is Column',style: TextStyle(
-              fontSize: 30,
-              color: Colors.blue
-          ),),
-          Text('This is Column',style: TextStyle(
-              fontSize: 30,
-              color: Colors.blue
-          ),),
-          Text('This is Column',style: TextStyle(
-              fontSize: 30,
-              color: Colors.blue
-          ),),
-          Text('This is Column',style: TextStyle(
-              fontSize: 30,
-              color: Colors.blue
-          ),),
-          Text('This is Column',style: TextStyle(
-              fontSize: 30,
-              color: Colors.blue
-          ),),
-          Text('This is Column',style: TextStyle(
-              fontSize: 30,
-              color: Colors.blue
-          ),),
-          Text('This is Column',style: TextStyle(
-              fontSize: 30,
-              color: Colors.blue
-          ),),
-          Text('This is Column',style: TextStyle(
-              fontSize: 30,
-              color: Colors.blue
-          ),),
-          Text('This is Column',style: TextStyle(
-              fontSize: 30,
-              color: Colors.blue
-          ),),
-          Text('This is Column',style: TextStyle(
-              fontSize: 30,
-              color: Colors.blue
-          ),),
-          Text('This is Column',style: TextStyle(
-              fontSize: 30,
-              color: Colors.blue
-          ),),
-          Text('This is Column',style: TextStyle(
-              fontSize: 30,
-              color: Colors.blue
-          ),),
-          Text('This is Column',style: TextStyle(
-              fontSize: 30,
-              color: Colors.blue
-          ),),
-          Text('This is Column',style: TextStyle(
-              fontSize: 30,
-              color: Colors.blue
-          ),),
-          Text('This is Column',style: TextStyle(
-              fontSize: 30,
-              color: Colors.blue
-          ),),
-          Text('This is Column',style: TextStyle(
-              fontSize: 30,
-              color: Colors.blue
-          ),),
-          Text('This is Column',style: TextStyle(
-              fontSize: 30,
-              color: Colors.blue
-          ),),
-          Text('This is Column',style: TextStyle(
-              fontSize: 30,
-              color: Colors.blue
-          ),),
-          Text('This is Column',style: TextStyle(
-              fontSize: 30,
-              color: Colors.blue
-          ),),
-          Text('This is Column',style: TextStyle(
-              fontSize: 30,
-              color: Colors.blue
-          ),),
-          Text('This is Column',style: TextStyle(
-              fontSize: 30,
-              color: Colors.blue
-          ),),
-          Text('This is Column',style: TextStyle(
-              fontSize: 30,
-              color: Colors.blue
-          ),),
-          Text('This is Column',style: TextStyle(
-              fontSize: 30,
-              color: Colors.blue
-          ),),
-          Text('This is Column',style: TextStyle(
-              fontSize: 30,
-              color: Colors.blue
-          ),),
-          Text('This is Column',style: TextStyle(
-              fontSize: 30,
-              color: Colors.blue
-          ),),
-          Text('This is Column',style: TextStyle(
-              fontSize: 30,
-              color: Colors.blue
-          ),),
+      body: Row(
+          children: [
+            Text('This is Row',style: TextStyle(
+                fontSize: 30,
+                color: Colors.blue
+            ),),
+            Text('This is Row',style: TextStyle(
+                fontSize: 30,
+                color: Colors.blue
+            ),),
 
-        ],
+          ],
+
       ),
-      ),
+
+      // body: SingleChildScrollView(
+      //   child: Column(
+      //     mainAxisAlignment: MainAxisAlignment.center,
+      //       children: [
+      //     Text('This is Column',style: TextStyle(
+      //       fontSize: 30,
+      //       color: Colors.blue
+      //     ),),
+      //     Text('This is Column',style: TextStyle(
+      //         fontSize: 30,
+      //         color: Colors.blue
+      //     ),),
+      //     Text('This is Column',style: TextStyle(
+      //         fontSize: 30,
+      //         color: Colors.blue
+      //     ),),
+      //     Text('This is Column',style: TextStyle(
+      //         fontSize: 30,
+      //         color: Colors.blue
+      //     ),),
+      //     Text('This is Column',style: TextStyle(
+      //         fontSize: 30,
+      //         color: Colors.blue
+      //     ),),
+      //     Text('This is Column',style: TextStyle(
+      //         fontSize: 30,
+      //         color: Colors.blue
+      //     ),),
+      //     Text('This is Column',style: TextStyle(
+      //         fontSize: 30,
+      //         color: Colors.blue
+      //     ),),
+      //     Text('This is Column',style: TextStyle(
+      //         fontSize: 30,
+      //         color: Colors.blue
+      //     ),),
+      //     Text('This is Column',style: TextStyle(
+      //         fontSize: 30,
+      //         color: Colors.blue
+      //     ),),
+      //     Text('This is Column',style: TextStyle(
+      //         fontSize: 30,
+      //         color: Colors.blue
+      //     ),),
+      //     Text('This is Column',style: TextStyle(
+      //         fontSize: 30,
+      //         color: Colors.blue
+      //     ),),
+      //     Text('This is Column',style: TextStyle(
+      //         fontSize: 30,
+      //         color: Colors.blue
+      //     ),),
+      //     Text('This is Column',style: TextStyle(
+      //         fontSize: 30,
+      //         color: Colors.blue
+      //     ),),
+      //     Text('This is Column',style: TextStyle(
+      //         fontSize: 30,
+      //         color: Colors.blue
+      //     ),),
+      //     Text('This is Column',style: TextStyle(
+      //         fontSize: 30,
+      //         color: Colors.blue
+      //     ),),
+      //     Text('This is Column',style: TextStyle(
+      //         fontSize: 30,
+      //         color: Colors.blue
+      //     ),),
+      //     Text('This is Column',style: TextStyle(
+      //         fontSize: 30,
+      //         color: Colors.blue
+      //     ),),
+      //     Text('This is Column',style: TextStyle(
+      //         fontSize: 30,
+      //         color: Colors.blue
+      //     ),),
+      //     Text('This is Column',style: TextStyle(
+      //         fontSize: 30,
+      //         color: Colors.blue
+      //     ),),
+      //     Text('This is Column',style: TextStyle(
+      //         fontSize: 30,
+      //         color: Colors.blue
+      //     ),),
+      //     Text('This is Column',style: TextStyle(
+      //         fontSize: 30,
+      //         color: Colors.blue
+      //     ),),
+      //     Text('This is Column',style: TextStyle(
+      //         fontSize: 30,
+      //         color: Colors.blue
+      //     ),),
+      //     Text('This is Column',style: TextStyle(
+      //         fontSize: 30,
+      //         color: Colors.blue
+      //     ),),
+      //     Text('This is Column',style: TextStyle(
+      //         fontSize: 30,
+      //         color: Colors.blue
+      //     ),),
+      //     Text('This is Column',style: TextStyle(
+      //         fontSize: 30,
+      //         color: Colors.blue
+      //     ),),
+      //     Text('This is Column',style: TextStyle(
+      //         fontSize: 30,
+      //         color: Colors.blue
+      //     ),),
+      //     Text('This is Column',style: TextStyle(
+      //         fontSize: 30,
+      //         color: Colors.blue
+      //     ),),
+      //     Text('This is Column',style: TextStyle(
+      //         fontSize: 30,
+      //         color: Colors.blue
+      //     ),),
+      //     Text('This is Column',style: TextStyle(
+      //         fontSize: 30,
+      //         color: Colors.blue
+      //     ),),
+      //     Text('This is Column',style: TextStyle(
+      //         fontSize: 30,
+      //         color: Colors.blue
+      //     ),),
+      //     Text('This is Column',style: TextStyle(
+      //         fontSize: 30,
+      //         color: Colors.blue
+      //     ),),
+      //     Text('This is Column',style: TextStyle(
+      //         fontSize: 30,
+      //         color: Colors.blue
+      //     ),),
+      //
+      //   ],
+      // ),
+      // ),
     );
   }
 }
