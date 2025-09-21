@@ -69,175 +69,177 @@ class Home extends StatelessWidget {
       //   ),
       // ),
       body: SingleChildScrollView(
-        child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            InkWell(
-              onTap: (){
-              print('1 tap');
-              },
+        child: Center(
+          child: Column(
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              InkWell(
+                onTap: (){
+                print('1 tap');
+                },
 
-              onDoubleTap: (){
-                print('2 tap');
-              },
-              onLongPress: (){
-                print('long press');
-              },
-                child: Icon(
-                    Icons.add,
-                    size: 50,
-                    color: Colors.red
-                )),
-            IconButton(
-              onPressed: () {
-                print('Item Deleted');
-              },
-              icon: Icon(Icons.delete),
-            ),
+                onDoubleTap: (){
+                  print('2 tap');
+                },
+                onLongPress: (){
+                  print('long press');
+                },
+                  child: Icon(
+                      Icons.add,
+                      size: 50,
+                      color: Colors.red
+                  )),
+              IconButton(
+                onPressed: () {
+                  print('Item Deleted');
+                },
+                icon: Icon(Icons.delete),
+              ),
 
-            TextButton(
-              onPressed: () {
-                print('Click me from Text Button');
-              },
-              child: Text(
-                'Click me',
-                style: TextStyle(
-                  fontSize: 30,
-                  color: Colors.blue,
-                  fontWeight: FontWeight.bold,
+              TextButton(
+                onPressed: () {
+                  print('Click me from Text Button');
+                },
+                child: Text(
+                  'Click me',
+                  style: TextStyle(
+                    fontSize: 30,
+                    color: Colors.blue,
+                    fontWeight: FontWeight.bold,
+                  ),
                 ),
               ),
-            ),
 
-            Text(
-              'This is Column',
-              style: TextStyle(fontSize: 30, color: Colors.blue),
-            ),
-            Text(
-              'This is Column',
-              style: TextStyle(fontSize: 30, color: Colors.blue),
-            ),
-            Text(
-              'This is Column',
-              style: TextStyle(fontSize: 30, color: Colors.blue),
-            ),
-            Text(
-              'This is Column',
-              style: TextStyle(fontSize: 30, color: Colors.blue),
-            ),
-            Text(
-              'This is Column',
-              style: TextStyle(fontSize: 30, color: Colors.blue),
-            ),
-            Text(
-              'This is Column',
-              style: TextStyle(fontSize: 30, color: Colors.blue),
-            ),
-            Text(
-              'This is Column',
-              style: TextStyle(fontSize: 30, color: Colors.blue),
-            ),
-            Text(
-              'This is Column',
-              style: TextStyle(fontSize: 30, color: Colors.blue),
-            ),
-            Text(
-              'This is Column',
-              style: TextStyle(fontSize: 30, color: Colors.blue),
-            ),
-            Text(
-              'This is Column',
-              style: TextStyle(fontSize: 30, color: Colors.blue),
-            ),
-            Text(
-              'This is Column',
-              style: TextStyle(fontSize: 30, color: Colors.blue),
-            ),
-            Text(
-              'This is Column',
-              style: TextStyle(fontSize: 30, color: Colors.blue),
-            ),
-            Text(
-              'This is Column',
-              style: TextStyle(fontSize: 30, color: Colors.blue),
-            ),
-            Text(
-              'This is Column',
-              style: TextStyle(fontSize: 30, color: Colors.blue),
-            ),
-            Text(
-              'This is Column',
-              style: TextStyle(fontSize: 30, color: Colors.blue),
-            ),
-            Text(
-              'This is Column',
-              style: TextStyle(fontSize: 30, color: Colors.blue),
-            ),
-            Text(
-              'This is Column',
-              style: TextStyle(fontSize: 30, color: Colors.blue),
-            ),
-            Text(
-              'This is Column',
-              style: TextStyle(fontSize: 30, color: Colors.blue),
-            ),
-            Text(
-              'This is Column',
-              style: TextStyle(fontSize: 30, color: Colors.blue),
-            ),
-            Text(
-              'This is Column',
-              style: TextStyle(fontSize: 30, color: Colors.blue),
-            ),
-            Text(
-              'This is Column',
-              style: TextStyle(fontSize: 30, color: Colors.blue),
-            ),
-            Text(
-              'This is Column',
-              style: TextStyle(fontSize: 30, color: Colors.blue),
-            ),
-            Text(
-              'This is Column',
-              style: TextStyle(fontSize: 30, color: Colors.blue),
-            ),
-            Text(
-              'This is Column',
-              style: TextStyle(fontSize: 30, color: Colors.blue),
-            ),
-            Text(
-              'This is Column',
-              style: TextStyle(fontSize: 30, color: Colors.blue),
-            ),
-            Text(
-              'This is Column',
-              style: TextStyle(fontSize: 30, color: Colors.blue),
-            ),
-            Text(
-              'This is Column',
-              style: TextStyle(fontSize: 30, color: Colors.blue),
-            ),
-            Text(
-              'This is Column',
-              style: TextStyle(fontSize: 30, color: Colors.blue),
-            ),
-            Text(
-              'This is Column',
-              style: TextStyle(fontSize: 30, color: Colors.blue),
-            ),
-            Text(
-              'This is Column',
-              style: TextStyle(fontSize: 30, color: Colors.blue),
-            ),
-            Text(
-              'This is Column',
-              style: TextStyle(fontSize: 30, color: Colors.blue),
-            ),
-            Text(
-              'This is Column',
-              style: TextStyle(fontSize: 30, color: Colors.blue),
-            ),
-          ],
+              Text(
+                'This is Column',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
+              ),
+              Text(
+                'This is Column',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
+              ),
+              Text(
+                'This is Column',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
+              ),
+              Text(
+                'This is Column',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
+              ),
+              Text(
+                'This is Column',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
+              ),
+              Text(
+                'This is Column',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
+              ),
+              Text(
+                'This is Column',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
+              ),
+              Text(
+                'This is Column',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
+              ),
+              Text(
+                'This is Column',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
+              ),
+              Text(
+                'This is Column',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
+              ),
+              Text(
+                'This is Column',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
+              ),
+              Text(
+                'This is Column',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
+              ),
+              Text(
+                'This is Column',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
+              ),
+              Text(
+                'This is Column',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
+              ),
+              Text(
+                'This is Column',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
+              ),
+              Text(
+                'This is Column',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
+              ),
+              Text(
+                'This is Column',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
+              ),
+              Text(
+                'This is Column',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
+              ),
+              Text(
+                'This is Column',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
+              ),
+              Text(
+                'This is Column',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
+              ),
+              Text(
+                'This is Column',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
+              ),
+              Text(
+                'This is Column',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
+              ),
+              Text(
+                'This is Column',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
+              ),
+              Text(
+                'This is Column',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
+              ),
+              Text(
+                'This is Column',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
+              ),
+              Text(
+                'This is Column',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
+              ),
+              Text(
+                'This is Column',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
+              ),
+              Text(
+                'This is Column',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
+              ),
+              Text(
+                'This is Column',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
+              ),
+              Text(
+                'This is Column',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
+              ),
+              Text(
+                'This is Column',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
+              ),
+              Text(
+                'This is Column',
+                style: TextStyle(fontSize: 30, color: Colors.blue),
+              ),
+            ],
+          ),
         ),
       ),
     );
