@@ -75,6 +75,48 @@ class Home extends StatelessWidget {
           child: Column(
             mainAxisAlignment: MainAxisAlignment.center,
             children: [
+              SingleChildScrollView(
+                scrollDirection: Axis.horizontal,
+                child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    crossAxisAlignment: CrossAxisAlignment.end,
+                      children: [
+                        Text('This is Row',style: TextStyle(
+                            fontSize: 30,
+                            color: Colors.blue
+                        ),),
+                        SizedBox(
+                          width: 10,
+                        ),
+                        Text('This is Row',style: TextStyle(
+                            fontSize: 30,
+                            color: Colors.blue
+                        ),),
+                        SizedBox(
+                          width: 10,
+                        ),
+                        Text('This is Row',style: TextStyle(
+                            fontSize: 30,
+                            color: Colors.blue
+                        ),),
+                        SizedBox(
+                          width: 10,
+                        ),
+                        Text('This is Row',style: TextStyle(
+                            fontSize: 30,
+                            color: Colors.blue
+                        ),),
+                        SizedBox(
+                          width: 10,
+                        ),
+                        Text('This is Row',style: TextStyle(
+                            fontSize: 30,
+                            color: Colors.blue
+                        ),),
+
+                      ],
+                ),
+              ),
               InkWell(
                 onTap: (){
                 print('1 tap');
