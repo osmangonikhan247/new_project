@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app_development/newpage.dart';
+import 'package:flutter_app_development/viewpage.dart';
 import 'homepage.dart';
 
 class MyApp extends StatelessWidget {
@@ -9,7 +11,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'New project Flutter',
-        home: Home()
+        home: newpage()
     );
   }
 }
