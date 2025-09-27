@@ -37,11 +37,19 @@ class page2 extends StatelessWidget {
                 },
 
                 child: Text('This is text')),
+            
+            
 
           ],
 
 
         ),
+      ),
+      
+      floatingActionButton: FloatingActionButton(onPressed: (){
+             print('Floating Button Pressed') ;     },
+      child: Icon(Icons.add),
+        backgroundColor: Colors.cyan,
       ),
 
     );
