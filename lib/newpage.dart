@@ -15,12 +15,46 @@ class newpage extends StatelessWidget {
         toolbarHeight: 100,
       ),
       
-      body: Column(
-        children: [
-          ElevatedButton(onPressed: (){print('One press in the Button');
-          }, child: Text('Button'  ,))
-        ],
-        
+      body: Center(
+        child: Column(
+          children: [
+            ElevatedButton(
+                style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.cyanAccent,
+                    foregroundColor: Colors.black,
+                    shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.horizontal()
+                    )
+                ),
+                onPressed: (){print('One press in the Button');
+                }, child: Text('Button'  ,)),
+
+            SizedBox(
+              height: 150,
+              width: 200,
+              // width: double.infinity,
+              child: ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                      backgroundColor: Colors.cyanAccent,
+                      foregroundColor: Colors.black,
+                  ),
+                  onPressed: (){print('One press in the Button');
+                  }, child: Text('Button'  ,)),
+            ),
+            
+            OutlinedButton(onPressed: (){}, child: Text('Outline Button')),
+
+            GestureDetector(
+              onTap: (){
+                print('One tap');
+              },
+
+                child: Text('This is text')),
+
+          ],
+
+
+        ),
       ),
 
     );
