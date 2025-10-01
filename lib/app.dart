@@ -3,6 +3,7 @@ import 'package:flutter_app_development/newpage.dart';
 import 'package:flutter_app_development/viewpage.dart';
 import 'homepage.dart';
 import 'page2.dart';
+import 'log_in_page.dart';
 
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -12,7 +13,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'New project Flutter',
-        home: page2()
+        home: login()
     );
   }
 }
