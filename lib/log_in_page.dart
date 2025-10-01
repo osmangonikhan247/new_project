@@ -22,7 +22,13 @@ class login extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: TextField(
+                keyboardType: TextInputType.text,
                 decoration: InputDecoration(
+                  labelText: 'Name',
+                    labelStyle: TextStyle(
+                      color: Colors.red,
+                      fontSize: 20
+                    ),
                     hintText: 'Enter Your Name',
                     border: OutlineInputBorder()
                 ),
@@ -34,7 +40,14 @@ class login extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: TextField(
+                obscureText: true,
+
                 decoration: InputDecoration(
+                  labelText: 'Password',
+                    labelStyle: TextStyle(
+                        color: Colors.red,
+                        fontSize: 20
+                    ),
                     hintText: 'Enter Your Password',
                     border: OutlineInputBorder()
                 ),
