@@ -41,9 +41,10 @@ class login extends StatelessWidget {
               padding: const EdgeInsets.all(8.0),
               child: TextField(
                 obscureText: true,
-
+                
                 decoration: InputDecoration(
                   labelText: 'Password',
+                    suffixIcon: Icon(Icons.looks),
                     labelStyle: TextStyle(
                         color: Colors.red,
                         fontSize: 20
@@ -60,10 +61,11 @@ class login extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.all(8.0),
               child: TextField(
-                obscureText: true,
+                keyboardType: TextInputType.phone,
 
                 decoration: InputDecoration(
                     labelText: 'Phone Number',
+                    prefixIcon: Icon(Icons.phone),
                     labelStyle: TextStyle(
                         color: Colors.red,
                         fontSize: 20
