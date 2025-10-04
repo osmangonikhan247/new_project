@@ -53,7 +53,27 @@ class login extends StatelessWidget {
                 ),
               ),
             ),
+
             
+            SizedBox(height: 20,),
+
+            Padding(
+              padding: const EdgeInsets.all(8.0),
+              child: TextField(
+                obscureText: true,
+
+                decoration: InputDecoration(
+                    labelText: 'Phone Number',
+                    labelStyle: TextStyle(
+                        color: Colors.red,
+                        fontSize: 20
+                    ),
+                    hintText: 'Enter Your Phone Number',
+                    border: OutlineInputBorder()
+                ),
+              ),
+            ),
+
             SizedBox(height: 20,),
             
             ElevatedButton(
