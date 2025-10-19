@@ -96,11 +96,17 @@ class login extends StatelessWidget {
                     }
                     print(namecontroller.text);
                     if(passcontroller.text.isEmpty){
-                      print("please Enter Your Password");
+                      print("Please Enter Your Password");
                     }else if(passcontroller.text.length <8){
                       print("Password Must be minimum 8 digit");
                     }
                     print(passcontroller.text);
+                    if(phonecontroller.text.isEmpty){
+                      print("Please Enter Your Number");
+                    }else if(phonecontroller.text.length < 11){
+                      print("Please Enter a valid number");
+                    }
+                    print(phonecontroller.text);
                     
                   }, child: Text('Log In'))
           
