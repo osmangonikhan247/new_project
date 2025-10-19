@@ -5,6 +5,9 @@ class login extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    TextEditingController namecontroller = TextEditingController();
+    TextEditingController passcontroller = TextEditingController();
+    TextEditingController phonecontroller = TextEditingController();
     return Scaffold(
 
       appBar: AppBar(
@@ -15,77 +18,94 @@ class login extends StatelessWidget {
       ),
 
       body: Center(
-        child: Column(
-          children: [
-            SizedBox(height: 20,),
-
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: TextField(
-                keyboardType: TextInputType.text,
-                decoration: InputDecoration(
-                  labelText: 'Name',
-                    labelStyle: TextStyle(
-                      color: Colors.red,
-                      fontSize: 20
-                    ),
-                    hintText: 'Enter Your Name',
-                    border: OutlineInputBorder()
-                ),
-              ),
-            ),
-
-            SizedBox(height: 20,),
-
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: TextField(
-                obscureText: true,
-                
-                decoration: InputDecoration(
-                  labelText: 'Password',
-                    suffixIcon: Icon(Icons.looks),
-                    labelStyle: TextStyle(
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              SizedBox(height: 20,),
+          
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: TextField(
+                  controller: namecontroller,
+                  keyboardType: TextInputType.text,
+                  decoration: InputDecoration(
+                    labelText: 'Name',
+                      labelStyle: TextStyle(
                         color: Colors.red,
                         fontSize: 20
-                    ),
-                    hintText: 'Enter Your Password',
-                    border: OutlineInputBorder()
+                      ),
+                      hintText: 'Enter Your Name',
+                      border: OutlineInputBorder()
+                  ),
                 ),
               ),
-            ),
-
-            
-            SizedBox(height: 20,),
-
-            Padding(
-              padding: const EdgeInsets.all(8.0),
-              child: TextField(
-                keyboardType: TextInputType.phone,
-
-                decoration: InputDecoration(
-                    labelText: 'Phone Number',
-                    prefixIcon: Icon(Icons.phone),
-                    labelStyle: TextStyle(
-                        color: Colors.red,
-                        fontSize: 20
-                    ),
-                    hintText: 'Enter Your Phone Number',
-                    border: OutlineInputBorder()
+          
+              SizedBox(height: 20,),
+          
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: TextField(
+                  controller: passcontroller,
+                  obscureText: true,
+                  
+                  decoration: InputDecoration(
+                    labelText: 'Password',
+                      suffixIcon: Icon(Icons.looks),
+                      labelStyle: TextStyle(
+                          color: Colors.red,
+                          fontSize: 20
+                      ),
+                      hintText: 'Enter Your Password',
+                      border: OutlineInputBorder()
+                  ),
                 ),
               ),
-            ),
-
-            SizedBox(height: 20,),
-            
-            ElevatedButton(
-                style:ElevatedButton.styleFrom(
-                  backgroundColor: Colors.cyan,
-                  foregroundColor: Colors.red
+          
+              
+              SizedBox(height: 20,),
+          
+              Padding(
+                padding: const EdgeInsets.all(8.0),
+                child: TextField(
+                  controller: phonecontroller,
+                  keyboardType: TextInputType.phone,
+          
+                  decoration: InputDecoration(
+                      labelText: 'Phone Number',
+                      prefixIcon: Icon(Icons.phone),
+                      labelStyle: TextStyle(
+                          color: Colors.red,
+                          fontSize: 20
+                      ),
+                      hintText: 'Enter Your Phone Number',
+                      border: OutlineInputBorder()
+                  ),
                 ),
-                onPressed: (){}, child: Text('Log In'))
-
-          ],
+              ),
+          
+              SizedBox(height: 20,),
+              
+              ElevatedButton(
+                  style:ElevatedButton.styleFrom(
+                    backgroundColor: Colors.cyan,
+                    foregroundColor: Colors.red
+                  ),
+                  onPressed: (){
+                    if(namecontroller.text.isEmpty){
+                      print("Please Enter you name");
+                    }
+                    print(namecontroller.text);
+                    if(passcontroller.text.isEmpty){
+                      print("please Enter Your Password");
+                    }else if(passcontroller.text.length <8){
+                      print("Password Must be minimum 8 digit");
+                    }
+                    print(passcontroller.text);
+                    
+                  }, child: Text('Log In'))
+          
+            ],
+          ),
         ),
       )
 
