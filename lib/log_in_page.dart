@@ -108,7 +108,13 @@ class login extends StatelessWidget {
                     }
                     print(phonecontroller.text);
                     
-                  }, child: Text('Log In'))
+                  }, child: Text('Log In')),
+
+              SizedBox(height: 20,),
+              
+              ElevatedButton(onPressed: (){
+                namecontroller.clear();
+              }, child: Text('Clear'))
           
             ],
           ),
