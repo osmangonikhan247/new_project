@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_app_development/formlogin.dart';
 import 'package:flutter_app_development/newpage.dart';
 import 'package:flutter_app_development/viewpage.dart';
 import 'homepage.dart';
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         debugShowCheckedModeBanner: false,
         title: 'New project Flutter',
-        home: login()
+        home: LoginPage()
     );
   }
 }
